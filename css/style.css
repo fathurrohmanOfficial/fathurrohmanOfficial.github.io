@@ -8,9 +8,11 @@ body {
 }
 
 .jumbotron {
+	background-color: transparent;
 	background-image: url('../img/header.jpg'); 
 	background-attachment: fixed;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: fixed;
 	background-position: 0 -100px;
 	height: 550px;
 	overflow: hidden;
