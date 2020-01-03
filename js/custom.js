@@ -29,18 +29,5 @@ $(document).ready(function(){
 
 function saySalam(nama){
 	var nama = nama;
-	var salam;
-	var hari_ini = new Date();
-	var jam = hari_ini.getHours();
-	
-	if(jam > 23 && jam <= 10){
-		salam = "Pagi";
-	}else if(jam > 10 && jam <= 14){
-		salam = "Siang";
-	}else if(jam > 14 && jam < 18){
-		salam = "Sore";
-	}else{
-		salam = "Malam";
-	}
-	return "Selamat "+salam+" "+nama;
+	return "Selamat Datang "+nama;
 }
